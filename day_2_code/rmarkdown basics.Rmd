@@ -2,7 +2,10 @@
 title: "RMarkdown Basics"
 author: "Hunter"
 date: "2/21/2020"
-output: html_document
+output: 
+  html_document:
+    toc: yes
+    number_sections: yes
 ---
 
 ```{r setup, include=FALSE}
